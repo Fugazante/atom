@@ -1261,6 +1261,7 @@ class Phing {
 			ini_set('memory_limit', '32M'); // nore: this may need to be higher for many projects
 		}
 		*/
+		ini_set('memory_limit', '1024M'); // nore: this may need to be higher for many projects
 	}
 
 	/**
